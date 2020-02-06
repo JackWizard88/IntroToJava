@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0295be6a-8654-459d-a64c-635b4b216cfe" name="Default Changelist" comment="" />
+    <list default="true" id="0295be6a-8654-459d-a64c-635b4b216cfe" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson4/Bowl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson4/MyException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IntroToJava/Lesson4/Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/IntroToJava/Lesson4/Animal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IntroToJava/Lesson4/Cat.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/IntroToJava/Lesson4/Cat.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IntroToJava/Lesson4/Employer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IntroToJava/Lesson4/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/IntroToJava/Lesson4/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson4/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson4/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson4/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson4/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson4/Employer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson4/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson4/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson5/Animal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson5/Cat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson5/Dog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson5/Jumpable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson5/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson5/Runnable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson5/Swimmable.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,12 +30,18 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1X9zrUzpVWW9NaQVIxHNv6IY5Al" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="autoscrollToSource" value="true" />
@@ -25,6 +51,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.14453125" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -32,6 +59,9 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="Lesson4" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Akira\IdeaProjects\MailRuLessons\IntroToJava\src\Lesson3" />
       <recent name="C:\Users\Akira\IdeaProjects\MailRuLessons\IntroToJava\src\Lesson2" />
@@ -160,22 +190,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="689" y="304" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580658462531" />
-    <state width="1877" height="616" key="GridCell.Tab.0.bottom" timestamp="1580965183759">
+    <state x="690" y="268" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1580994642422">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="616" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580965183759" />
-    <state width="1877" height="616" key="GridCell.Tab.0.center" timestamp="1580965183759">
+    <state x="690" y="268" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580994642422" />
+    <state width="1877" height="628" key="GridCell.Tab.0.bottom" timestamp="1580994717359">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="616" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580965183759" />
-    <state width="1877" height="616" key="GridCell.Tab.0.left" timestamp="1580965183759">
+    <state width="1877" height="628" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580994717359" />
+    <state width="1877" height="628" key="GridCell.Tab.0.center" timestamp="1580994717359">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="616" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580965183759" />
-    <state width="1877" height="616" key="GridCell.Tab.0.right" timestamp="1580965183759">
+    <state width="1877" height="628" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580994717359" />
+    <state width="1877" height="628" key="GridCell.Tab.0.left" timestamp="1580994717358">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="616" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580965183759" />
+    <state width="1877" height="628" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580994717358" />
+    <state width="1877" height="628" key="GridCell.Tab.0.right" timestamp="1580994717359">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="628" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580994717359" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1580740444438">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -192,13 +226,17 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580740444438" />
+    <state x="552" y="254" key="Vcs.Push.Dialog.v2" timestamp="1580988009811">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1580988009811" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1580735657228">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1580735657228" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1580732455416">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1580989845859">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1580732455416" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1580989845859" />
   </component>
 </project>
