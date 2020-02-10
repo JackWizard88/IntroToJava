@@ -5,7 +5,7 @@ public class Calculation {
     private String operator; //operator
     private String result;  //result of calculation
 
-    //basic null counstuctor
+    //basic null constructor
     public Calculation() {
         this.a = "";
         this.b = "";
