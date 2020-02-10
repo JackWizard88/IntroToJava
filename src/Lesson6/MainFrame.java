@@ -42,16 +42,17 @@ public class MainFrame extends JFrame {
                     displayField.setText("");
                     calc.setOperation(command);
                 }
-                else if (calc.getA().equals("") && calc.getOperation().equals("") && !calc.getResult().equals("")) {
+                else if (calc.getA().equals("") && calc.getOperation().equals("") && calc.getResult().equals(displayField.getText())) {
                     displayField.setText(command);
                 }
-                else if (calc.getA().equals("") && calc.getOperation().equals("") && calc.getResult().equals("")) {
+                else if (calc.getA().equals("") && calc.getOperation().equals("")) {
                     displayField.setText(displayField.getText() + command);
                 }
 
-                else if (!(calc.getA().equals("") && calc.getOperation().equals(""))) {
+                else if (!(calc.getA().equals("") && !calc.getOperation().equals(""))) {
                     displayField.setText(displayField.getText() + command);
                     calc.setB(displayField.getText());
+
 
                 }
             }
@@ -63,7 +64,7 @@ public class MainFrame extends JFrame {
 
         JFrame frame = new JFrame("Calculator");
         frame.setIconImage(icon.getImage());
-        frame.setSize(300, 350);
+        frame.setSize(350, 400);
         frame.setLocation(100, 100);
         frame.setDefaultCloseOperation(EXIT_ON_CLOSE);
 
