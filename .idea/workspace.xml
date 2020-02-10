@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="IntroToJava:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="0295be6a-8654-459d-a64c-635b4b216cfe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/unnamed.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/IntroToJava_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/unnamed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,9 +48,9 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.14453125" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
@@ -58,6 +66,8 @@
   </component>
   <component name="RunManager" selected="Application.CalculatorMain">
     <configuration name="CalculatorMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="C:\Program Files\Java\jdk1.8.0_231\jre" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="Lesson6.CalculatorMain" />
       <module name="IntroToJava" />
       <extension name="coverage">
@@ -122,13 +132,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.CalculatorMain" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Main (1)" />
+      <item itemvalue="Application.mainClass" />
+      <item itemvalue="Application.TicTacToe" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CalculatorMain" />
         <item itemvalue="Application.TicTacToe" />
         <item itemvalue="Application.mainClass" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.CalculatorMain" />
       </list>
     </recent_temporary>
   </component>
@@ -162,13 +179,28 @@
       <option name="project" value="LOCAL" />
       <updated>1581343833578</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Lesson6 done">
+      <created>1581354273273</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1581354273273</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Lesson6 done">
+      <created>1581354355955</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1581354355955</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Lesson6 first step" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lesson6 first step" />
+    <MESSAGE value="Lesson6 done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lesson6 done" />
   </component>
   <component name="WindowStateProjectService">
     <state x="677" y="179" key="#DZ2" timestamp="1580658839392">
@@ -183,22 +215,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="677" y="179" key="#HomeWork_1/0.0.1920.1040@0.0.1920.1040" timestamp="1580476374849" />
+    <state x="414" y="176" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581354834910">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="176" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581354834910" />
     <state x="765" y="230" key="#com.intellij.ide.util.MemberChooser" timestamp="1581342574396">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="230" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1581342574396" />
-    <state x="689" y="304" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1580658462531">
+    <state x="689" y="304" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1581354770298">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="689" y="304" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580658462531" />
+    <state x="689" y="304" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581354770298" />
     <state x="690" y="268" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1580994642422">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="268" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580994642422" />
-    <state x="428" y="45" key="CommitChangelistDialog2" timestamp="1581354272607">
+    <state x="428" y="45" key="CommitChangelistDialog2" timestamp="1581354355289">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="428" y="45" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1581354272607" />
+    <state x="428" y="45" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1581354355289" />
     <state width="1877" height="263" key="GridCell.Tab.0.bottom" timestamp="1581352981353">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -231,14 +267,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1303" height="355" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1581349087523" />
+    <state x="440" y="95" key="SettingsEditor" timestamp="1581354888881">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="440" y="95" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1581354888881" />
     <state x="92" y="92" width="1736" height="856" key="ShowDiffWithBranchDialog" timestamp="1580996959474">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="ShowDiffWithBranchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580996959474" />
-    <state x="515" y="405" key="Vcs.Push.Dialog.v2" timestamp="1581354281154">
+    <state x="515" y="405" key="Vcs.Push.Dialog.v2" timestamp="1581354364214">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="515" y="405" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1581354281154" />
+    <state x="515" y="405" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1581354364214" />
     <state x="92" y="92" width="1736" height="856" key="com.intellij.dvcs.ui.CompareBranchesDialog" timestamp="1581354220335">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

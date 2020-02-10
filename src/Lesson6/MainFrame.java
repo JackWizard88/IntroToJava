@@ -11,6 +11,8 @@ public class MainFrame extends JFrame {
     private static GridBagConstraints constr;           //constrains
     private static Calculation calc = new Calculation();    //creating an instance of Calculation
     private static ImageIcon icon = new ImageIcon("src/Lesson6/images/calculator.png"); //Icon for Panels
+    private static Font font = new Font("Arial", Font.BOLD,24);
+    private static Font font1 = new Font("Arial", Font.ITALIC,30);
 
     //overriding ActionListener ( 1 for all buttons )   the most complicated part which took 2 hours
     private static ActionListener actionListener = new ActionListener() {
@@ -82,8 +84,7 @@ public class MainFrame extends JFrame {
         constr.weighty = 1.0;
         constr.anchor= GridBagConstraints.CENTER;
         displayField = new JTextField();
-        Font font = new Font("Arial", Font.BOLD,24);
-        displayField.setFont(font);
+        displayField.setFont(font1);
         layout.setConstraints(displayField,constr);
         panel1.add(displayField);
 
