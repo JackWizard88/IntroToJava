@@ -1,58 +1,78 @@
 package Lesson6;
 
 public class Calculation {
-    private static double a, b;
-    private static String operation;
-    private static  double result;
+    private String a, b;    //first and second operand
+    private String operator; //operator
+    private String result;  //result of calculation
 
-
+    //basic null counstuctor
     public Calculation() {
-        this.a = 0;
-        this.b = 0;
-        this.operation = "";
+        this.a = "";
+        this.b = "";
+        this.operator = "";
+        this.result = "";
     }
 
-
-    public double getA() {
+    //getters and setters
+    public String getA() {
         return a;
     }
 
-    public void setB(double b) {
+    public String getB() {
+        return b;
+    }
+
+    public void setB(String b) {
         this.b = b;
     }
 
-    public void setA(double a) {
+    public void setA(String a) {
         this.a = a;
-    }
-
-    public double getB() {
-        return b;
     }
 
 
     public void setOperation(String operation) {
-        this.operation = operation;
+        this.operator = operation;
     }
 
     public String getOperation() {
-        return operation;
+        return operator;
     }
 
-    public double getResult() {
+    //calculate and set result method
+    public void calculate() {
+
+        double x, y;
+        x = Double.parseDouble(this.a);
+        System.out.println(x);
+        y = Double.parseDouble(this.b);
+        System.out.println(y);
+        switch (operator) {
+            case "+":
+                x = (x + y);
+                break;
+            case "-":
+                x = (x - y);
+                break;
+            case "*":
+                x = (x * y);
+                break;
+            case "/":
+                x = (x / y);
+                break;
+            case "^":
+                double buffer = x;
+                for (int i = 1; i < y; i++) {
+                    x = x * buffer;
+                }
+                break;
+        }
+
+        this.result =  ("" + x);
+     }
+
+    public String getResult() {
         return result;
     }
 
-    public static double calculate() {
-        if (operation == "+") a = (a + b);
-        else if (operation == "-") a = (a - b);
-        else if (operation == "*") a = (a * b);
-        else if (operation == "/") a = (a / b);
-        else if (operation == "^") {
-            for (int i = 0; i < b; i++) {
-                a *= a;
-            }
-        }
-
-        return a;
-     }
 }
