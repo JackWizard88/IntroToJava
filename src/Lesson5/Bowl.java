@@ -28,11 +28,7 @@ public class Bowl {
         try {
             if (filling < 0) {
                 throw new MyException("Нужно вводить положительное число");
-            } else if (filling > this.volume) {
-                this.filling = this.volume;
-            } else {
-                this.filling = filling;
-            }
+            } else this.filling = Math.min(filling, this.volume);
         }
         catch (MyException e) {
             System.out.println(e.getMessage());
