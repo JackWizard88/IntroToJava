@@ -2,16 +2,11 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="IntroToJava:jar" />
+      <artifact name="Calculator:jar" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0295be6a-8654-459d-a64c-635b4b216cfe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/IntroToJava_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/unnamed.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="0295be6a-8654-459d-a64c-635b4b216cfe" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -193,14 +188,22 @@
       <option name="project" value="LOCAL" />
       <updated>1581354355955</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Lesson6 changed some fonts &#10;and created Runnable Jar file in /out/artifacts/Calculator_jar/Calculator.jar">
+      <created>1581355123392</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1581355123392</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Lesson6 first step" />
     <MESSAGE value="Lesson6 done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lesson6 done" />
+    <MESSAGE value="Lesson6 changed some fonts &#10;and created Runnable Jar file in /out/artifacts/Calculator_jar/Calculator.jar" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lesson6 changed some fonts &#10;and created Runnable Jar file in /out/artifacts/Calculator_jar/Calculator.jar" />
   </component>
   <component name="WindowStateProjectService">
     <state x="677" y="179" key="#DZ2" timestamp="1580658839392">
@@ -231,10 +234,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="268" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580994642422" />
-    <state x="428" y="45" key="CommitChangelistDialog2" timestamp="1581354355289">
+    <state x="428" y="45" key="CommitChangelistDialog2" timestamp="1581355122571">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="428" y="45" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1581354355289" />
+    <state x="428" y="45" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1581355122571" />
     <state width="1877" height="263" key="GridCell.Tab.0.bottom" timestamp="1581352981353">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -267,18 +270,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1303" height="355" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1581349087523" />
-    <state x="440" y="95" key="SettingsEditor" timestamp="1581354888881">
+    <state x="440" y="95" key="SettingsEditor" timestamp="1581355223632">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="440" y="95" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1581354888881" />
+    <state x="440" y="95" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1581355223632" />
     <state x="92" y="92" width="1736" height="856" key="ShowDiffWithBranchDialog" timestamp="1580996959474">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="ShowDiffWithBranchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580996959474" />
-    <state x="515" y="405" key="Vcs.Push.Dialog.v2" timestamp="1581354364214">
+    <state x="515" y="405" key="Vcs.Push.Dialog.v2" timestamp="1581355136282">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="515" y="405" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1581354364214" />
+    <state x="515" y="405" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1581355136282" />
     <state x="92" y="92" width="1736" height="856" key="com.intellij.dvcs.ui.CompareBranchesDialog" timestamp="1581354220335">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
