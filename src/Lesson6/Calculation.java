@@ -60,15 +60,17 @@ public class Calculation {
             case "/":
                 x = (x / y);
                 break;
-            case "^":
-                double buffer = x;
-                for (int i = 1; i < y; i++) {
-                    x = x * buffer;
-                }
+            case "x^y":
+                x = Math.pow(x, y);
                 break;
         }
 
-        this.result =  ("" + x);
+        // round if .0
+        if (x % 1 == 0) {
+            this.result = ((int) x + "");
+        } else {
+            this.result = (x + "");
+        }
      }
 
     public String getResult() {

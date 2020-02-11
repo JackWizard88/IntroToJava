@@ -7,8 +7,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0295be6a-8654-459d-a64c-635b4b216cfe" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Calculator_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/Calculator_jar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Calculator_jar/Calculator.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IntroToJava/Lesson6/Calculation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/IntroToJava/Lesson6/Calculation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IntroToJava/Lesson6/MainFrame$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/IntroToJava/Lesson6/MainFrame$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IntroToJava/Lesson6/MainFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/IntroToJava/Lesson6/MainFrame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IntroToJava/Lesson6/images/calculator.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IntroToJava/META-INF/IntroToJava.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson6/Calculation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson6/Calculation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Lesson6/MainFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson6/MainFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson6/images/calculator.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson6/calculator.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +55,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Lesson6/images" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.14453125" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -53,16 +63,58 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="Lesson4" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Akira\IdeaProjects\MailRuLessons\IntroToJava\src\Lesson6" />
+      <recent name="C:\Users\Akira\IdeaProjects\MailRuLessons\IntroToJava\src\Lesson6\images" />
       <recent name="C:\Users\Akira\IdeaProjects\MailRuLessons\IntroToJava\src\Lesson3" />
       <recent name="C:\Users\Akira\IdeaProjects\MailRuLessons\IntroToJava\src\Lesson2" />
       <recent name="C:\Users\Akira\IdeaProjects\MailRuLessons\IntroToJava\src\Lesson1" />
     </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="Lesson4" />
+    </key>
   </component>
   <component name="RunManager" selected="Application.CalculatorMain">
+    <configuration name="Calc (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="check.Calc" />
+      <module name="IntroToJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="check.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Calc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Calc" />
+      <module name="IntroToJava" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Calculator (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Calculator" />
+      <module name="IntroToJava" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="check.Calculator" />
+      <module name="IntroToJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="check.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CalculatorMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="C:\Program Files\Java\jdk1.8.0_231\jre" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -78,72 +130,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson5.Main" />
-      <module name="IntroToJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lesson5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson4.Main" />
-      <module name="IntroToJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lesson4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TicTacToe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson3.TicTacToe" />
-      <module name="IntroToJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lesson3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="mainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="check.mainClass" />
-      <module name="IntroToJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="check.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.CalculatorMain" />
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.Main (1)" />
-      <item itemvalue="Application.mainClass" />
-      <item itemvalue="Application.TicTacToe" />
+      <item itemvalue="Application.Calculator" />
+      <item itemvalue="Application.Calc" />
+      <item itemvalue="Application.Calc (1)" />
+      <item itemvalue="Application.Calculator (1)" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.CalculatorMain" />
-        <item itemvalue="Application.TicTacToe" />
-        <item itemvalue="Application.mainClass" />
-        <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Calc (1)" />
+        <item itemvalue="Application.Calculator" />
+        <item itemvalue="Application.Calculator (1)" />
+        <item itemvalue="Application.Calc" />
       </list>
     </recent_temporary>
   </component>
@@ -205,7 +205,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581355249019</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Lesson6 bugfix: was able to provide only one number after getting result of the first calculation.">
+      <created>1581356723176</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1581356723176</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -214,7 +221,8 @@
     <MESSAGE value="Lesson6 done" />
     <MESSAGE value="Lesson6 changed some fonts &#10;and created Runnable Jar file in /out/artifacts/Calculator_jar/Calculator.jar" />
     <MESSAGE value="Lesson6 changed some fonts and created Runnable Jar file in /out/artifacts/Calculator_jar/Calculator.jar" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lesson6 changed some fonts and created Runnable Jar file in /out/artifacts/Calculator_jar/Calculator.jar" />
+    <MESSAGE value="Lesson6 bugfix: was able to provide only one number after getting result of the first calculation." />
+    <option name="LAST_COMMIT_MESSAGE" value="Lesson6 bugfix: was able to provide only one number after getting result of the first calculation." />
   </component>
   <component name="WindowStateProjectService">
     <state x="677" y="179" key="#DZ2" timestamp="1580658839392">
@@ -245,26 +253,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="268" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580994642422" />
-    <state x="428" y="45" key="CommitChangelistDialog2" timestamp="1581355248223">
+    <state x="428" y="45" key="CommitChangelistDialog2" timestamp="1581356722430">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="428" y="45" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1581355248223" />
-    <state width="1877" height="263" key="GridCell.Tab.0.bottom" timestamp="1581356573188">
+    <state x="428" y="45" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1581356722430" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1581372897583">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="263" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1581356573188" />
-    <state width="1877" height="263" key="GridCell.Tab.0.center" timestamp="1581356573188">
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1581372897583" />
+    <state width="1877" height="262" key="GridCell.Tab.0.bottom" timestamp="1581406227397">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="263" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1581356573188" />
-    <state width="1877" height="263" key="GridCell.Tab.0.left" timestamp="1581356573188">
+    <state width="1877" height="262" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1581406227397" />
+    <state width="1877" height="262" key="GridCell.Tab.0.center" timestamp="1581406227397">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="263" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1581356573188" />
-    <state width="1877" height="263" key="GridCell.Tab.0.right" timestamp="1581356573188">
+    <state width="1877" height="262" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1581406227397" />
+    <state width="1877" height="262" key="GridCell.Tab.0.left" timestamp="1581406227397">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="263" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1581356573188" />
+    <state width="1877" height="262" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1581406227397" />
+    <state width="1877" height="262" key="GridCell.Tab.0.right" timestamp="1581406227397">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="262" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1581406227397" />
     <state width="1303" height="355" key="GridCell.Tab.1.bottom" timestamp="1581355308547">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -281,18 +293,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1303" height="355" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1581355308547" />
-    <state x="440" y="95" key="SettingsEditor" timestamp="1581355223632">
+    <state x="440" y="95" key="SettingsEditor" timestamp="1581372993897">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="440" y="95" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1581355223632" />
+    <state x="440" y="95" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1581372993897" />
     <state x="92" y="92" width="1736" height="856" key="ShowDiffWithBranchDialog" timestamp="1580996959474">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="ShowDiffWithBranchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580996959474" />
-    <state x="515" y="405" key="Vcs.Push.Dialog.v2" timestamp="1581355280479">
+    <state x="515" y="405" key="Vcs.Push.Dialog.v2" timestamp="1581407625247">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="515" y="405" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1581355280479" />
+    <state x="515" y="405" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1581407625247" />
     <state x="92" y="92" width="1736" height="856" key="com.intellij.dvcs.ui.CompareBranchesDialog" timestamp="1581354220335">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
