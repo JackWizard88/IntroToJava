@@ -6,18 +6,25 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0295be6a-8654-459d-a64c-635b4b216cfe" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Calculator_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/Calculator_jar.xml" afterDir="false" />
+    <list default="true" id="0295be6a-8654-459d-a64c-635b4b216cfe" name="Default Changelist" comment="Lesson7: task done">
+      <change afterPath="$PROJECT_DIR$/out/production/IntroToJava/Lesson7/Game.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/IntroToJava/Lesson7/GameActionListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/IntroToJava/Lesson7/GameBoard$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/IntroToJava/Lesson7/GameBoard.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/IntroToJava/Lesson7/GameButton.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/IntroToJava/Lesson7/GamePlayer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/IntroToJava/Lesson7/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/IntroToJava/META-INF/IntroToJava.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson7/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson7/GameActionListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson7/GameBoard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson7/GameButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson7/GamePlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson7/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Calculator_jar/Calculator.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/IntroToJava/Lesson6/Calculation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/IntroToJava/Lesson6/Calculation.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/IntroToJava/Lesson6/MainFrame$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/IntroToJava/Lesson6/MainFrame$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/IntroToJava/Lesson6/MainFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/IntroToJava/Lesson6/MainFrame.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/IntroToJava/Lesson6/images/calculator.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/IntroToJava/META-INF/IntroToJava.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson6/Calculation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson6/Calculation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Lesson6/MainFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson6/MainFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson6/images/calculator.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson6/calculator.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +40,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Andrei Krylov &lt;krilovavit@mail.ru&gt;" />
+      </list>
+    </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="develop" />
@@ -63,6 +75,10 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="Lesson7" />
+      <recent name="Lesson4" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Akira\IdeaProjects\MailRuLessons\IntroToJava\src\Lesson6" />
       <recent name="C:\Users\Akira\IdeaProjects\MailRuLessons\IntroToJava\src\Lesson6\images" />
@@ -70,11 +86,8 @@
       <recent name="C:\Users\Akira\IdeaProjects\MailRuLessons\IntroToJava\src\Lesson2" />
       <recent name="C:\Users\Akira\IdeaProjects\MailRuLessons\IntroToJava\src\Lesson1" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="Lesson4" />
-    </key>
   </component>
-  <component name="RunManager" selected="Application.CalculatorMain">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Calc (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="check.Calc" />
       <module name="IntroToJava" />
@@ -84,20 +97,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Calc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Calc" />
-      <module name="IntroToJava" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Calculator (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Calculator" />
-      <module name="IntroToJava" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -130,20 +129,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="check.Main" />
+      <module name="IntroToJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="check.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson7.Main" />
+      <module name="IntroToJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lesson7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.CalculatorMain" />
       <item itemvalue="Application.Calculator" />
-      <item itemvalue="Application.Calc" />
       <item itemvalue="Application.Calc (1)" />
-      <item itemvalue="Application.Calculator (1)" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Main (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.CalculatorMain" />
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Calc (1)" />
         <item itemvalue="Application.Calculator" />
-        <item itemvalue="Application.Calculator (1)" />
-        <item itemvalue="Application.Calc" />
       </list>
     </recent_temporary>
   </component>
@@ -212,7 +237,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581356723176</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Lesson6 bugfix: dark theme. added buffer string. added result round,">
+      <created>1581407773241</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1581407773242</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -222,7 +254,8 @@
     <MESSAGE value="Lesson6 changed some fonts &#10;and created Runnable Jar file in /out/artifacts/Calculator_jar/Calculator.jar" />
     <MESSAGE value="Lesson6 changed some fonts and created Runnable Jar file in /out/artifacts/Calculator_jar/Calculator.jar" />
     <MESSAGE value="Lesson6 bugfix: was able to provide only one number after getting result of the first calculation." />
-    <option name="LAST_COMMIT_MESSAGE" value="Lesson6 bugfix: was able to provide only one number after getting result of the first calculation." />
+    <MESSAGE value="Lesson6 bugfix: dark theme. added buffer string. added result round," />
+    <option name="LAST_COMMIT_MESSAGE" value="Lesson6 bugfix: dark theme. added buffer string. added result round," />
   </component>
   <component name="WindowStateProjectService">
     <state x="677" y="179" key="#DZ2" timestamp="1580658839392">
@@ -241,10 +274,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="176" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581354834910" />
-    <state x="765" y="230" key="#com.intellij.ide.util.MemberChooser" timestamp="1581342574396">
+    <state x="765" y="230" key="#com.intellij.ide.util.MemberChooser" timestamp="1581420934499">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="230" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1581342574396" />
+    <state x="765" y="230" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1581420934499" />
     <state x="689" y="304" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1581354770298">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -253,58 +286,58 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="268" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580994642422" />
-    <state x="428" y="45" key="CommitChangelistDialog2" timestamp="1581356722430">
+    <state x="428" y="45" width="1219" height="938" key="CommitChangelistDialog2" timestamp="1581449010121">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="428" y="45" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1581356722430" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1581372897583">
+    <state x="428" y="45" width="1219" height="938" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1581449010121" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1581448852895">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1581372897583" />
-    <state width="1877" height="262" key="GridCell.Tab.0.bottom" timestamp="1581406227397">
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1581448852895" />
+    <state width="1877" height="134" key="GridCell.Tab.0.bottom" timestamp="1581448747484">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="262" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1581406227397" />
-    <state width="1877" height="262" key="GridCell.Tab.0.center" timestamp="1581406227397">
+    <state width="1877" height="134" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1581448747483" />
+    <state width="1877" height="134" key="GridCell.Tab.0.center" timestamp="1581448747483">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="262" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1581406227397" />
-    <state width="1877" height="262" key="GridCell.Tab.0.left" timestamp="1581406227397">
+    <state width="1877" height="134" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1581448747483" />
+    <state width="1877" height="134" key="GridCell.Tab.0.left" timestamp="1581448747483">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="262" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1581406227397" />
-    <state width="1877" height="262" key="GridCell.Tab.0.right" timestamp="1581406227397">
+    <state width="1877" height="134" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1581448747483" />
+    <state width="1877" height="134" key="GridCell.Tab.0.right" timestamp="1581448747483">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="262" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1581406227397" />
-    <state width="1303" height="355" key="GridCell.Tab.1.bottom" timestamp="1581355308547">
+    <state width="1877" height="134" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1581448747483" />
+    <state width="914" height="355" key="GridCell.Tab.1.bottom" timestamp="1581447807651">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1303" height="355" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1581355308547" />
-    <state width="1303" height="355" key="GridCell.Tab.1.center" timestamp="1581355308547">
+    <state width="914" height="355" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1581447807651" />
+    <state width="914" height="355" key="GridCell.Tab.1.center" timestamp="1581447807651">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1303" height="355" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1581355308547" />
-    <state width="1303" height="355" key="GridCell.Tab.1.left" timestamp="1581355308547">
+    <state width="914" height="355" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1581447807651" />
+    <state width="914" height="355" key="GridCell.Tab.1.left" timestamp="1581447807651">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1303" height="355" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1581355308547" />
-    <state width="1303" height="355" key="GridCell.Tab.1.right" timestamp="1581355308547">
+    <state width="914" height="355" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1581447807651" />
+    <state width="914" height="355" key="GridCell.Tab.1.right" timestamp="1581447807651">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1303" height="355" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1581355308547" />
-    <state x="440" y="95" key="SettingsEditor" timestamp="1581372993897">
+    <state width="914" height="355" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1581447807651" />
+    <state x="440" y="95" key="SettingsEditor" timestamp="1581448855818">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="440" y="95" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1581372993897" />
+    <state x="440" y="95" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1581448855818" />
     <state x="92" y="92" width="1736" height="856" key="ShowDiffWithBranchDialog" timestamp="1580996959474">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="ShowDiffWithBranchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580996959474" />
-    <state x="515" y="405" key="Vcs.Push.Dialog.v2" timestamp="1581407625247">
+    <state x="515" y="405" key="Vcs.Push.Dialog.v2" timestamp="1581407789711">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="515" y="405" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1581407625247" />
+    <state x="515" y="405" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1581407789711" />
     <state x="92" y="92" width="1736" height="856" key="com.intellij.dvcs.ui.CompareBranchesDialog" timestamp="1581354220335">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -313,10 +346,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="769" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1581343783585" />
-    <state x="616" y="240" key="run.anything.popup" timestamp="1580735657228">
+    <state x="721" y="234" key="git4idea.branch.GitSmartOperationDialog" timestamp="1581448902334">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1580735657228" />
+    <state x="721" y="234" key="git4idea.branch.GitSmartOperationDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581448902334" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1581436458470">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1581436458470" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1580989845859">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

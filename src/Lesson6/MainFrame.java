@@ -11,36 +11,33 @@ public class MainFrame extends JFrame {
     private static GridBagLayout layout;                //layout
     private static GridBagConstraints constr;           //constrains
     private static Calculation calc = new Calculation();    //creating an instance of Calculation
-
-
     private static ImageIcon icon = new ImageIcon(MainFrame.class.getResource("calculator.png")); //Icon for Panels
-    private static Font font1 = new Font("Courier new", Font.ITALIC,40);
-    private static Color fontColor = new Color(255, 150, 16);
-    private static Color BackgroundColor = new Color(50, 50, 50);
+    private static Font font1 = new Font("Courier new", Font.ITALIC,40);  //text font
+    private static Color fontColor = new Color(255, 150, 16);               //font color
+    private static Color BackgroundColor = new Color(50, 50, 50);           //background color
 
-    //overriding ActionListener ( 1 for all buttons )   the most complicated part which took 2 hours
+    //overriding ActionListener ( 1 for all buttons )
     private static ActionListener actionListener = new ActionListener() {
         @Override
         public void actionPerformed(ActionEvent e) {
             JButton button = (JButton) e.getSource();
             String command = button.getActionCommand();
-            System.out.println(command);
+            System.out.println(command);  //console information
 
             if (!(displayField.getText().contains(".") && command.equals("."))) {
-
-                if (!displayField.getText().equals("") && command.equals("+/-")) {
-                    double temp = -1*Double.parseDouble(displayField.getText());
-                    if (temp % 1 == 0) displayField.setText("" + (int) temp);
-                    else displayField.setText("" + temp);
-                } else {
-                    if (command.equals("C")) {
+                    if (command.equals("C")) {  //clear all fields and parameters
                         calc.setA("");
                         calc.setOperation("");
                         calc.setB("");
                         displayField.setText("");
                         bufferField.setText("");
-                    }
-                    else if (command.equals("=")) {
+                    } else if (command.equals("+/-")) {
+                        if (!displayField.getText().equals("") && !displayField.getText().equals("")) {
+                            double temp = -1*Double.parseDouble(displayField.getText());
+                            if (temp % 1 == 0) displayField.setText("" + (int) temp);
+                            else displayField.setText("" + temp);
+                        }
+                    } else if (command.equals("=")) {
                         if(!calc.getA().equals("") && !calc.getB().equals("") && !calc.getOperation().equals("")) {
                             calc.calculate();
                             displayField.setText(calc.getResult());
@@ -48,26 +45,20 @@ public class MainFrame extends JFrame {
                             calc.setA("");
                             bufferField.setText(bufferField.getText() + " " + calc.getB() + " =");
                         }
-                    }
-                    else if (command.equals("+") || command.equals("-") || command.equals("*") || command.equals("/") || command.equals("x^y")) {
+                    } else if (command.equals("+") || command.equals("-") || command.equals("*") || command.equals("/") || command.equals("x^y")) {
                         calc.setA(displayField.getText());
                         displayField.setText("");
                         calc.setOperation(command);
                         bufferField.setText(calc.getA()+ " " + calc.getOperation());
-                    }
-                    else if (calc.getA().equals("") && calc.getOperation().equals("") && calc.getResult().equals(displayField.getText())) {
+                    } else if (calc.getA().equals("") && calc.getOperation().equals("") && calc.getResult().equals(displayField.getText())) {
+                        bufferField.setText("");
                         displayField.setText(command);
-                    }
-                    else if (calc.getA().equals("") && calc.getOperation().equals("")) {
+                    } else if (calc.getA().equals("") && calc.getOperation().equals("")) {
                         displayField.setText(displayField.getText() + command);
-                    }
-
-                    else if (!(calc.getA().equals("") && !calc.getOperation().equals(""))) {
+                    } else if (!(calc.getA().equals("") && !calc.getOperation().equals(""))) {
                         displayField.setText(displayField.getText() + command);
                         calc.setB(displayField.getText());
-
                     }
-                }
             }
         }
     };
@@ -132,37 +123,26 @@ public class MainFrame extends JFrame {
         layout.setConstraints(displayField,constr);
         panel1.add(displayField);
 
-
         //creating buttons
-        String[] buttons = {"7", "8", "9", "*", "4", "5", "6", "/", "1", "2", "3", "-", ".", "0", "x^y", "+", "C", "+/-", "=", ""};
+        String[] buttons = {"7", "8", "9", "*", "4", "5", "6", "/", "1", "2", "3", "-", ".", "0", "x^y", "+", "C", "+/-", "=", "end"};
         int counter =0, width;
 
         for (int i=2; i < 7; i++){
             for (int j = 0; j< 4; j++) {
                 JButton btn;
 
-                if (buttons[counter].equals("")) break;
+                if (buttons[counter].equals("end")) break;
 
                 if (buttons[counter].equals("=") ) width = 2;
                 else width = 1;
 
-
-                if (buttons[counter].equals("=")) {
-                    btn = createButton(buttons[counter], j, i, width);
-                }
-                else {
-                    btn = createButton(buttons[counter], j, i, width);
-                }
-
-
+                btn = createButton(buttons[counter], j, i, width);
                 btn.setActionCommand(buttons[counter]);
                 btn.addActionListener(actionListener);
                 panel1.add(btn);
                 counter++;
             }
-
         }
-
         //adding panel with textField and buttons on the Main Frame
         frame.add(panel1);
         frame.setResizable(false);  //forbid resizing the Frame
@@ -177,9 +157,10 @@ public class MainFrame extends JFrame {
         button.setForeground(fontColor);
         button.setFont(new Font("Courier new", Font.BOLD, 20));
         button.setBorder(BorderFactory.createMatteBorder(1, 1, 1, 1, fontColor));
+
+        //if "C" -  make RED button with WHITE borders
         if (text.equals("C")) {
             button.setBackground(new Color(150,50,50));
-            //button.setBorder(BorderFactory.createMatteBorder(1, 1, 1, 1, Color.BLACK));
             button.setForeground(Color.WHITE);
         }
 
