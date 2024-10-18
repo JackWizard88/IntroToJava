@@ -1,10 +1,12 @@
 package Lesson7;
 
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.Random;
 
 public class GameActionListener implements ActionListener {
+    private static final boolean SILLY_MODE = false;
     private int row;
     private int cell;
     private GameButton button;
@@ -43,7 +45,7 @@ public class GameActionListener implements ActionListener {
         boolean flag = false;
 
         //make the copy of the field as charArray
-        for (int i = 0; i < (GameBoard.dimension*GameBoard.dimension); i++) {
+        for (int i = 0; i < (GameBoard.dimension * GameBoard.dimension); i++) {
             int a = i / GameBoard.dimension;
             int b = i % GameBoard.dimension;
 
@@ -54,19 +56,24 @@ public class GameActionListener implements ActionListener {
             for (int j = 0; j < GameBoard.dimension; j++) {
 
                 if (board.isTurnable(i, j)) {
+
+                    //проверка победного хода
                     board.tempField[i][j] = 'O';
+
                     if (board.checkWin('O', board.tempField)) {
-                        score = 20;     //потому что победить важнее чем не дать победить врагу 20>10
-                        if (score > maxScore) {
-                            maxScore = score;
-                            x = i;
-                            y = j;
-                        }
-                        board.tempField[i][j] = '\u0000';
+
+                        maxScore = 20;
+                        x = i;
+                        y = j;
+
+                        //board.tempField[i][j] = '\u0000';
                         flag = true;
                         break;
                     }
+
+                    //проверка хода победы противника
                     board.tempField[i][j] = 'X';
+
                     if (board.checkWin('X', board.tempField)) {
                         score = 10;
                         if (score > maxScore) {
@@ -74,22 +81,51 @@ public class GameActionListener implements ActionListener {
                             x = i;
                             y = j;
                         }
-                        board.tempField[i][j] = '\u0000';
                     }
                     board.tempField[i][j] = '\u0000';
+
                 }
             }
             if (flag) break;
         }
 
-        if (maxScore == -1) {
+        if (SILLY_MODE) {
             do {
                 x = rnd.nextInt(GameBoard.dimension);
                 y = rnd.nextInt(GameBoard.dimension);
             } while (!board.isTurnable(x, y));
+        } else {
+            for (int i = 0; i < GameBoard.dimension; i++) {
+                for (int j = 0; j < GameBoard.dimension; j++) {
+
+                    if (board.isTurnable(j, i)) {  //check if cell is empty
+                        score = 0;
+
+                        //проверяет все ячейки вокруг набирая очки за соседство со своими ноликами, а так же с Крестиками
+                        for (int k = i - 1; k < i + 1; k++) {
+                            for (int l = j - 1; l < j + 1; l++) {
+                                if (checkCellScore(k, l, board)) score++;
+                            }
+                        }
+
+                        //если очков больше чем на макс, то перезаписываем более выгодные координаты
+                        if (score >= maxScore) {
+                            maxScore = score;
+                            x = j;
+                            y = i;
+                        }
+                    }
+
+                    if (maxScore == 0) {
+                        do {
+                            x = rnd.nextInt(GameBoard.dimension);
+                            y = rnd.nextInt(GameBoard.dimension);
+                        } while (!board.isTurnable(x, y));
+                    }
+                }
+            }
         }
 
-        //Computer makes his move
         // Обновим матрицу игры
         board.updateGameField(x, y);
 
@@ -105,6 +141,15 @@ public class GameActionListener implements ActionListener {
         } else {
             board.getGame().passTurn();
         }
+    }
+
+    //проверяем существует ли клетка, и если да, то есть ли в ней "О"
+    private static boolean checkCellScore(int y, int x, GameBoard board) {
+
+        if (x < 0 || x >= GameBoard.dimension || y < 0 || y >= GameBoard.dimension) {
+            return false;
+        }
+        return board.gameField[y][x] == 'O';
     }
 
     private void updateByPlayersData(GameBoard board) {

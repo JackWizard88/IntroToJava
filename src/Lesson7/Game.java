@@ -32,7 +32,7 @@ public class Game {
         this.PlayersTurn = playersTurn;
     }
 
-    // popUp masseges
+    // popUp messages
     void showMessage(String text) {
         JOptionPane.showMessageDialog(board, text);
     }

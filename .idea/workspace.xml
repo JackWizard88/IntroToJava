@@ -5,26 +5,26 @@
       <artifact name="Calculator:jar" />
     </artifacts-to-build>
   </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="0295be6a-8654-459d-a64c-635b4b216cfe" name="Default Changelist" comment="Lesson7: task done">
-      <change afterPath="$PROJECT_DIR$/out/production/IntroToJava/Lesson7/Game.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IntroToJava/Lesson7/GameActionListener.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IntroToJava/Lesson7/GameBoard$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IntroToJava/Lesson7/GameBoard.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IntroToJava/Lesson7/GameButton.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IntroToJava/Lesson7/GamePlayer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IntroToJava/Lesson7/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IntroToJava/META-INF/IntroToJava.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson7/Game.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson7/GameActionListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson7/GameBoard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson7/GameButton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson7/GamePlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson7/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IntroToJava/Lesson6/Calculation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/IntroToJava/Lesson6/Calculation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IntroToJava/Lesson6/CalculatorMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/IntroToJava/Lesson6/CalculatorMain.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/IntroToJava/Lesson6/MainFrame$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/IntroToJava/Lesson6/MainFrame$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/IntroToJava/Lesson6/MainFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/IntroToJava/Lesson6/MainFrame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IntroToJava/Lesson7/GameActionListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/IntroToJava/Lesson7/GameActionListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IntroToJava/Lesson7/GameBoard.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/IntroToJava/Lesson7/GameBoard.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IntroToJava/META-INF/IntroToJava.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson3/TicTacToe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson3/TicTacToe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson6/Calculation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson6/Calculation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson6/CalculatorMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson6/CalculatorMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Lesson6/MainFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson6/MainFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson7/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson7/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson7/GameActionListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson7/GameActionListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson7/GameBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson7/GameBoard.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +52,21 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;JackWizard88&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/JackWizard88/IntroToJava.git&quot;,
+    &quot;accountId&quot;: &quot;f227df9a-0dbf-4e05-a56f-bdd9764bf9e3&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="1X9zrUzpVWW9NaQVIxHNv6IY5Al" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -60,20 +75,21 @@
     <option name="autoscrollFromSource" value="true" />
     <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Lesson6/images" />
-    <property name="project.structure.last.edited" value="Artifacts" />
-    <property name="project.structure.proportion" value="0.14453125" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
-  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.CalculatorMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Lesson2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Lesson4.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Lesson5.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TicTacToe.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
+  }
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="Lesson7" />
@@ -88,35 +104,7 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.Main">
-    <configuration name="Calc (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="check.Calc" />
-      <module name="IntroToJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="check.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="check.Calculator" />
-      <module name="IntroToJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="check.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="CalculatorMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="C:\Program Files\Java\jdk1.8.0_231\jre" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="Lesson6.CalculatorMain" />
       <module name="IntroToJava" />
       <extension name="coverage">
@@ -129,12 +117,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="check.Main" />
+    <configuration name="Lesson4.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson4.Main" />
       <module name="IntroToJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="check.*" />
+          <option name="PATTERN" value="Lesson4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lesson5.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson5.Main" />
+      <module name="IntroToJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lesson5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -155,20 +156,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TicTacToe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson3.TicTacToe" />
+      <module name="IntroToJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lesson3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
+      <item itemvalue="Application.Lesson5.Main" />
+      <item itemvalue="Application.Lesson4.Main" />
+      <item itemvalue="Application.TicTacToe" />
       <item itemvalue="Application.CalculatorMain" />
-      <item itemvalue="Application.Calculator" />
-      <item itemvalue="Application.Calc (1)" />
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.Main (1)" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.CalculatorMain" />
-        <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Calc (1)" />
-        <item itemvalue="Application.Calculator" />
+        <item itemvalue="Application.Lesson5.Main" />
+        <item itemvalue="Application.Lesson4.Main" />
+        <item itemvalue="Application.TicTacToe" />
       </list>
     </recent_temporary>
   </component>
@@ -184,6 +198,7 @@
       </list>
     </option>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -256,107 +271,5 @@
     <MESSAGE value="Lesson6 bugfix: was able to provide only one number after getting result of the first calculation." />
     <MESSAGE value="Lesson6 bugfix: dark theme. added buffer string. added result round," />
     <option name="LAST_COMMIT_MESSAGE" value="Lesson6 bugfix: dark theme. added buffer string. added result round," />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="677" y="179" key="#DZ2" timestamp="1580658839392">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="677" y="179" key="#DZ2/0.0.1920.1040@0.0.1920.1040" timestamp="1580658839392" />
-    <state x="677" y="179" key="#HomeWork2" timestamp="1580717923830">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="677" y="179" key="#HomeWork2/0.0.1920.1040@0.0.1920.1040" timestamp="1580717923830" />
-    <state x="677" y="179" key="#HomeWork_1" timestamp="1580476374849">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="677" y="179" key="#HomeWork_1/0.0.1920.1040@0.0.1920.1040" timestamp="1580476374849" />
-    <state x="414" y="176" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581354834910">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="414" y="176" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581354834910" />
-    <state x="765" y="230" key="#com.intellij.ide.util.MemberChooser" timestamp="1581420934499">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="765" y="230" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1581420934499" />
-    <state x="689" y="304" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1581354770298">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="689" y="304" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581354770298" />
-    <state x="690" y="268" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1580994642422">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="690" y="268" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580994642422" />
-    <state x="428" y="45" width="1219" height="938" key="CommitChangelistDialog2" timestamp="1581449010121">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="428" y="45" width="1219" height="938" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1581449010121" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1581448852895">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1581448852895" />
-    <state width="1877" height="134" key="GridCell.Tab.0.bottom" timestamp="1581448747484">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="134" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1581448747483" />
-    <state width="1877" height="134" key="GridCell.Tab.0.center" timestamp="1581448747483">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="134" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1581448747483" />
-    <state width="1877" height="134" key="GridCell.Tab.0.left" timestamp="1581448747483">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="134" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1581448747483" />
-    <state width="1877" height="134" key="GridCell.Tab.0.right" timestamp="1581448747483">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="134" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1581448747483" />
-    <state width="914" height="355" key="GridCell.Tab.1.bottom" timestamp="1581447807651">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="914" height="355" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1581447807651" />
-    <state width="914" height="355" key="GridCell.Tab.1.center" timestamp="1581447807651">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="914" height="355" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1581447807651" />
-    <state width="914" height="355" key="GridCell.Tab.1.left" timestamp="1581447807651">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="914" height="355" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1581447807651" />
-    <state width="914" height="355" key="GridCell.Tab.1.right" timestamp="1581447807651">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="914" height="355" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1581447807651" />
-    <state x="440" y="95" key="SettingsEditor" timestamp="1581448855818">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="440" y="95" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1581448855818" />
-    <state x="92" y="92" width="1736" height="856" key="ShowDiffWithBranchDialog" timestamp="1580996959474">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="92" y="92" width="1736" height="856" key="ShowDiffWithBranchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580996959474" />
-    <state x="515" y="405" key="Vcs.Push.Dialog.v2" timestamp="1581407789711">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="515" y="405" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1581407789711" />
-    <state x="92" y="92" width="1736" height="856" key="com.intellij.dvcs.ui.CompareBranchesDialog" timestamp="1581354220335">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="92" y="92" width="1736" height="856" key="com.intellij.dvcs.ui.CompareBranchesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581354220335" />
-    <state x="769" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1581343783585">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="769" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1581343783585" />
-    <state x="721" y="234" key="git4idea.branch.GitSmartOperationDialog" timestamp="1581448902334">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="721" y="234" key="git4idea.branch.GitSmartOperationDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581448902334" />
-    <state x="616" y="240" key="run.anything.popup" timestamp="1581436458470">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1581436458470" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1580989845859">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1580989845859" />
   </component>
 </project>

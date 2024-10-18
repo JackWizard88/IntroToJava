@@ -22,8 +22,8 @@ public class GameBoard extends JFrame {
     }
 
     private void initField() {
-        setBounds(cellSize*dimension, cellSize * dimension, 400, 400);
-        setTitle("Крестики-Нолики v1.0");
+        setBounds( 400, 400, cellSize * dimension, cellSize * dimension);
+        setTitle("Крестики-Нолики");
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         setResizable(false);
         setLayout(new BorderLayout());
@@ -80,11 +80,9 @@ public class GameBoard extends JFrame {
     }
 
     boolean isTurnable(int x, int y) {
-        boolean result = false;
 
-        if (gameField[y][x] == nullSymbol) result = true;
+        return gameField[y][x] == nullSymbol;
 
-        return result;
     }
 
     public Game getGame() {
@@ -96,12 +94,9 @@ public class GameBoard extends JFrame {
     }
 
     boolean checkWin(char playerSymbol, char[][] field) {
-        boolean result = false;
 
-        if(checkWinDiagonals(playerSymbol, field) || checkWinLines(playerSymbol, field)){
-            result = true;
-        }
-        return result;
+        return checkWinDiagonals(playerSymbol, field) || checkWinLines(playerSymbol, field);
+
     }
 
     boolean isFull(){
